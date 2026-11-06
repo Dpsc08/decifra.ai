@@ -52,10 +52,9 @@ Seu cargo, **Decifrador(a)**, existe para auditar as decisões da NÓVA e educar
 | 8-9    | Entrega u1  FP2              | Kauã e Antonio      |   FP2    |
 | 10-11  | Backlog revisado             | João e Carlos       |   FP2    |
 | 10-11  | Evolução do código           | Luis e Davi B       |   PIF    |
-| 11-12  | Protótipo jogável            | Carlos e Joao       |   PIF    |
-| 11-12  | Ajuda na prototipação        |  Luis  e Davi P     |   PIF    |
-| 11-12  | Teste de usabilidade         |  Kawan e Antonio G  |   PIF    |
-| 11-12  | Teste de uso                 | Carlos Davi         |   PIF    |
+| 11-12  | Ajuda na prototipação        | Davi P e Antonio    |   PIF    |
+| 11-12  | Teste de usabilidade         | André e Kawan       |   PIF    |
+| 11-12  | Teste de uso                 | Antonio e Davi B    |   PIF    |
 
 ### Estrutura narrativa em atos
 
@@ -97,9 +96,9 @@ O design do jogo é guiado por dois perfis-alvo principais:
 - Todas as 10 perguntas de uma fase devem estar corretas para avançar; em caso de erro, a fase reinicia com variações mantendo coerência narrativa
 
 ### Requisitos Não Funcionais (RNF)
-- Desenvolvido em **C** (núcleo), visando estabilidade e ausência de conflitos técnicos
+- Desenvolvido em **C** (núcleo) e **Haskell** (módulos de regras), visando estabilidade e ausência de conflitos técnicos
 - Salvamento de progresso e feedback para todas as respostas do usuário, corretas ou não
-- Compatível com Windows
+- Compatível com Windows, macOS e Linux (suporte a Android/iOS é opcional)
 - Pontuação final de proficiência baseada em tempo de conclusão e quantidade de erros, gerando um arquivo de certificação de conclusão
 
 ---
